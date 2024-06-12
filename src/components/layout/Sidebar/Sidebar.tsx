@@ -32,6 +32,7 @@ const Sidebar = () => {
         <MenuItem name="Series">tv_gen</MenuItem>
         <MenuItem name="Movies">movie</MenuItem>
       </ul>
+      <div className={styles.Overlay} />
     </nav>
   );
 };

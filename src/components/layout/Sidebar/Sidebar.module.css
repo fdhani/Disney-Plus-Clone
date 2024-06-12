@@ -12,6 +12,7 @@
 .Logo {
   position: absolute;
   top: 20px;
+  z-index: 1;
 }
 
 .Container ul {
@@ -19,6 +20,23 @@
   padding: 0;
   margin: 0;
   width: 100%;
+}
+
+.Overlay {
+  width: 0%;
+  height: 100%;
+  position: absolute;
+  background: linear-gradient(
+    90.43deg,
+    rgba(15, 16, 20, 0.95) 16.24%,
+    rgba(15, 16, 20, 0) 98.46%
+  );
+  left: 0;
+  transition: width 100ms linear;
+}
+
+.MenuItemWrapper {
+  z-index: 1;
 }
 
 /* ==== END Sidebar ==== */
@@ -54,6 +72,10 @@
 }
 
 /* ==== END MenuItem ==== */
+
+.Container:hover .Overlay {
+  width: 250%;
+}
 
 .MenuItemWrapper:hover .menuName {
   opacity: 1;
