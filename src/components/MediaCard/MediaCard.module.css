@@ -1,10 +1,6 @@
 .container {
   width: 100%;
-<<<<<<< HEAD
   max-height: 280px;
-=======
-  height: 280px;
->>>>>>> 830c85d (improve style)
   position: relative;
   padding: 10px;
 }
