@@ -13,22 +13,13 @@ const MediaCard = (props: Props) => {
     <div className={styles.container}>
       <div className={styles.content}>
         <div className={styles.posterWrapper}>
-          <img
-            width="100%"
-            src={posterImage}
-            // src="https://image.tmdb.org/t/p/w342/vpnVM9B6NMmQpWeZvzLvDESb2QY.jpg"
-          />
+          <img width="100%" src={posterImage} />
         </div>
         <div className={styles.detail}>
           <div className={styles.bannerWrapper}>
-            <img
-              width="100%"
-              //   src="https://image.tmdb.org/t/p/w342/uVu2fBc114un7F1GD76RBouWyBP.jpg"
-              src={bannerImage}
-            />
+            <img width="100%" src={bannerImage} />
           </div>
           <div className={styles.detailInfo}>
-            <button className={styles.button}>Watch Now</button>
             <h3>{title}</h3>
             <p>{description}</p>
           </div>
