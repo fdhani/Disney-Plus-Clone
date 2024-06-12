@@ -66,14 +66,7 @@
 .container:hover .detail {
   box-shadow: 0 10px 15px 5px rgba(0, 0, 0, 0.272);
   position: absolute;
-<<<<<<< HEAD
   width: 105%;
   height: 100%;
-=======
-  top: 0;
-  left: 0;
-  width: 105%;
-  height: 105%;
->>>>>>> 830c85d (improve style)
   opacity: 1;
 }
