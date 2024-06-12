@@ -1,0 +1,31 @@
+# Layout
+☐ Sidebar
+☐ Footer
+☐ Page Container
+
+# Global Components
+☐ Movie Card Component
+☐ Movie Banner Component
+☐ Button Component
+☐ Typography Component
+
+# Homepage
+☐ Small Movie Banner Component
+☐ Section Title Component
+☐ Carousel Component
+
+# Movie Page
+☐ Label Component
+☐ Tabbing Component
+
+
+# TASKS
+☐ Create Layout - Sidebar
+☐ Create Layout - Footer
+☐ Create Layout - Page Container
+☐ Create Global Components 
+☐ Slicing Home Page
+☐ Implement Routing
+☐ Implement Movie Page
+☐ Implement Fetching Data from The Movie DB
+☐ Implement Authentication
