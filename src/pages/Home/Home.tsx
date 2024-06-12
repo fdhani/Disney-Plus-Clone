@@ -13,11 +13,12 @@ const Home = () => {
       <BannerDetail />
       <div
         style={{
-          zIndex: 2,
           height: "100vh",
-          backgroundColor: "lightblue",
+          backgroundColor: "gray",
         }}
-      ></div>
+      >
+        PLACEHOLDER CONTENT
+      </div>
     </div>
   );
 };
