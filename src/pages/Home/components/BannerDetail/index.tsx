@@ -32,7 +32,7 @@ const BannerDetail = () => {
           <b>Drama</b>
         </div>
         <div className={clsx([styles.DetailSection])}>
-          <button>Watch Now</button>
+          <button className={styles.button}>Watch Now</button>
         </div>
       </div>
     </div>
