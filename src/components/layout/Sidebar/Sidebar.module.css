@@ -1,0 +1,78 @@
+/* ==== START Sidebar ==== */
+.Container {
+  position: fixed;
+  height: 100vh;
+  width: 96px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.Logo {
+  position: absolute;
+  top: 20px;
+}
+
+.Container ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+/* ==== END Sidebar ==== */
+
+/* ==== START MenuItem ==== */
+
+.MenuItem {
+  color: white;
+  font-size: 20px;
+  height: 60px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+}
+
+.menuIcon {
+  cursor: pointer;
+  font-size: 24px;
+  opacity: 0.5;
+  transition: margin-left 80ms linear 200ms, font-size 50ms linear 200ms,
+    opacity 50ms linear 200ms;
+}
+
+.menuName {
+  opacity: 0;
+  position: absolute;
+  left: 65%;
+  font-size: 18px;
+  transition: opacity 200ms linear 200ms, left 100ms linear 200ms;
+}
+
+/* ==== END MenuItem ==== */
+
+.MenuItemWrapper:hover .menuName {
+  opacity: 1;
+  left: 75%;
+  transition: left 100ms linear 0;
+}
+.MenuItemWrapper:hover .menuIcon {
+  opacity: 1;
+  left: 75%;
+  color: white;
+  transition: margin-left 80ms linear 0, font-size 50ms linear 0;
+}
+.MenuItem:hover .menuName {
+  left: 82%;
+  font-weight: 700;
+}
+.MenuItem:hover .menuIcon {
+  opacity: 1;
+  margin-left: 6px;
+  font-size: 25px;
+  font-variation-settings: "FILL" 1;
+}
