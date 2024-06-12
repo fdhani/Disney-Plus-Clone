@@ -1,0 +1,89 @@
+.container {
+  max-width: 210px;
+  min-width: 150px;
+  width: 19vw;
+  height: 280px;
+  position: relative;
+}
+
+.content {
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+
+  transition: box-shadow 200ms ease-in-out;
+  overflow: hidden;
+  transition: width 130ms, height 130ms;
+}
+
+.posterWrapper {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.detail {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #16181f;
+
+  color: white;
+  opacity: 0;
+  box-sizing: border-box;
+  transition: opacity 0ms, width 130ms, height 130ms;
+}
+
+.detailInfo {
+  padding: 12px 12px;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60%;
+  background-color: #16181f;
+}
+
+.detailInfo .button {
+  height: 48px;
+  width: 100%;
+  border-radius: 10px;
+  outline: none;
+  background-color: #ffffffd6;
+
+  border: none;
+  color: #16181f;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.detailInfo h3 {
+  font-size: 16px;
+  color: #ffffffd6;
+  margin: 12px 0 8px;
+}
+
+.detailInfo p {
+  font-size: 14px;
+  width: 100%;
+  color: #8f98b2;
+  overflow: hidden;
+  display: -webkit-box;
+  text-overflow: ellipsis;
+  height: 40%;
+  line-clamp: 3;
+}
+
+.container:hover .content {
+  box-shadow: 0 10px 15px 5px rgba(0, 0, 0, 0.272);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 130%;
+  height: 110%;
+}
+.container:hover .detail {
+  opacity: 1;
+}
