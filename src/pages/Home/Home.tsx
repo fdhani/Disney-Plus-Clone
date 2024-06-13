@@ -26,7 +26,7 @@ const Home = () => {
         language="English"
       />
       <div>
-        <ScrollableSection slidesPerView={3}>
+        <ScrollableSection sectionTitle="Title Example">
           <SectionItem>
             <MediaCard
               title="Inside Out"
