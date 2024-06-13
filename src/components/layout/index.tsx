@@ -1,15 +1,16 @@
-import { PropsWithChildren } from "react";
 import Footer from "./Footer";
 import Page from "./Page";
 import Sidebar from "./Sidebar";
 import styles from "./index.module.css";
+import { Outlet } from "react-router";
 
-const Layout = (props: PropsWithChildren) => {
-  const { children } = props;
+const Layout = () => {
   return (
     <div className={styles.Container}>
       <Sidebar />
-      <Page>{children}</Page>
+      <Page>
+        <Outlet />
+      </Page>
       <Footer />
     </div>
   );
