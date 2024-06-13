@@ -12,7 +12,11 @@ const Home = () => {
       <BannerMask />
       {/* THIRD LAYER */}
       <BannerDetail />
-      <div>
+      <div
+        style={{
+          width: "200px",
+        }}
+      >
         <MediaCard
           title="Inside Out"
           posterImage="https://image.tmdb.org/t/p/w342/vpnVM9B6NMmQpWeZvzLvDESb2QY.jpg"
