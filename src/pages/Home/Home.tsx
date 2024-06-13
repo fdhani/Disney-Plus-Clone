@@ -6,7 +6,6 @@ import MediaCard from "../../components/MediaCard";
 import ScrollableSection, {
   SectionItem,
 } from "../../components/ScrollableSection";
-
 import "swiper/css";
 
 const Home = () => {
