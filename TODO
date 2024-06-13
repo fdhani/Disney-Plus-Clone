@@ -1,31 +1,10 @@
-# Layout
-☐ Sidebar
-☐ Footer
-☐ Page Container
-
-# Global Components
-☐ Movie Card Component
-☐ Movie Banner Component
-☐ Button Component
-☐ Typography Component
-
-# Homepage
-☐ Small Movie Banner Component
-☐ Section Title Component
-☐ Carousel Component
-
-# Movie Page
-☐ Label Component
-☐ Tabbing Component
-
-
 # TASKS
-☐ Create Layout - Sidebar
-☐ Create Layout - Footer
-☐ Create Layout - Page Container
-☐ Create Global Components 
-☐ Slicing Home Page
-☐ Implement Routing
-☐ Implement Movie Page
-☐ Implement Fetching Data from The Movie DB
+☐ Slicing Layout - Sidebar, Footer, Page Container
+☐ Slicing Home Page - Banner
+☐ Slicing Home Page - Media Card
+☐ Slicing Home Page - Scrollable Section with Swiper.js
+☐ Implement Routing and Navigation with React Router
+☐ Slicing Movie and Series Detail Page
+☐ Slicing Search Page
+☐ Integration Fetching Data from The Movie DB
 ☐ Implement Authentication

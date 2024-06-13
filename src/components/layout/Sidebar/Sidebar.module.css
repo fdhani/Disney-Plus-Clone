@@ -15,13 +15,6 @@
   z-index: 1;
 }
 
-.Container ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  width: 100%;
-}
-
 .Overlay {
   width: 0%;
   height: 100%;
@@ -38,6 +31,10 @@
 
 .MenuItemWrapper {
   z-index: 1;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
 }
 
 /* ==== END Sidebar ==== */
@@ -89,6 +86,7 @@
   color: white;
   transition: margin-left 80ms linear 0, font-size 50ms linear 0;
 }
+
 .MenuItem:hover .menuName {
   left: 82%;
   font-weight: 700;
