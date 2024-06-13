@@ -1,0 +1,14 @@
+.seasonTabsSection {
+  display: flex;
+}
+
+.seasonTab {
+  color: #9a9a9ad6;
+  margin-right: 18px;
+  cursor: pointer;
+}
+
+.seasonTab:hover,
+.seasonTab[data-active="true"] {
+  color: #ffffffd6;
+}
