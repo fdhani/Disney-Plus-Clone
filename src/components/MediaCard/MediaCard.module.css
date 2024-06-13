@@ -1,7 +1,5 @@
 .container {
-  max-width: 210px;
-  min-width: 150px;
-  width: 19vw;
+  width: 100%;
   height: 280px;
   position: relative;
 }
@@ -12,8 +10,6 @@
   height: 100%;
   border-radius: 8px;
   transition: box-shadow 200ms ease-in-out;
-  overflow: hidden;
-  transition: width 130ms, height 130ms;
 }
 
 .posterWrapper {
@@ -29,7 +25,8 @@
   width: 100%;
   height: 100%;
   background-color: #16181f;
-
+  overflow: hidden;
+  border-radius: 8px;
   color: white;
   opacity: 0;
   box-sizing: border-box;
@@ -38,7 +35,6 @@
 
 .detailInfo {
   padding: 12px 12px;
-  position: absolute;
   bottom: 0;
   width: 100%;
   height: 60%;
@@ -48,27 +44,29 @@
 .detailInfo h3 {
   font-size: 16px;
   color: #ffffffd6;
-  margin: 12px 0 8px;
+  margin: 0 0 8px;
 }
 
 .detailInfo p {
   font-size: 14px;
   width: 100%;
   color: #8f98b2;
+  margin: 0;
   overflow: hidden;
   text-overflow: ellipsis;
-  height: 60%;
   line-clamp: 3;
+  line-height: 20px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 5;
 }
 
-.container:hover .content {
+.container:hover .detail {
   box-shadow: 0 10px 15px 5px rgba(0, 0, 0, 0.272);
   position: absolute;
   top: 0;
   left: 0;
-  width: 130%;
-  height: 110%;
-}
-.container:hover .detail {
+  width: 105%;
+  height: 105%;
   opacity: 1;
 }

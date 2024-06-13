@@ -19,7 +19,11 @@ const Home = () => {
         releaseDate="2022-01-01"
         language="English"
       />
-      <div>
+      <div
+        style={{
+          width: "200px",
+        }}
+      >
         <MediaCard
           title="Inside Out"
           posterImage="https://image.tmdb.org/t/p/w342/vpnVM9B6NMmQpWeZvzLvDESb2QY.jpg"
