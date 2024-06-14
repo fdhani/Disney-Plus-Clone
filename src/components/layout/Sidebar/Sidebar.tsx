@@ -1,6 +1,6 @@
 import { PropsWithChildren } from "react";
 import styles from "./Sidebar.module.css";
-import { Link } from "react-router-dom";
+import { Link, useLocation, useResolvedPath } from "react-router-dom";
 
 interface MenuItemProps {
   name: string;
@@ -9,10 +9,20 @@ interface MenuItemProps {
 
 const MenuItem = (props: PropsWithChildren<MenuItemProps>) => {
   const { children, name, path } = props;
+  const _path = useLocation();
+  console.log({
+    _path,
+  });
+
+  const isActivePath = useResolvedPath(path).pathname === _path.pathname;
+
   return (
     <li className={styles.MenuItem}>
       <Link to={path} className={styles.MenuItem}>
-        <span className={`material-symbols-outlined ${styles.menuIcon}`}>
+        <span
+          data-active={isActivePath}
+          className={`material-symbols-outlined ${styles.menuIcon}`}
+        >
           {children}
         </span>
         <span className={styles.menuName}>{name}</span>
