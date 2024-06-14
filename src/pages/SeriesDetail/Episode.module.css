@@ -1,0 +1,45 @@
+.container {
+  height: 140px;
+  margin-bottom: 32px;
+  display: flex;
+  padding: 8px 0;
+}
+
+.imgWrapper {
+  width: 200px;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.imgWrapper img {
+  border: none;
+  outline: none;
+}
+
+.detailsWrapper {
+  margin-left: 32px;
+}
+
+.epTitle {
+  margin: 6px 0 0;
+  line-height: 25px;
+  font-size: 18px;
+  color: #ffffffd6;
+}
+
+.epSummary {
+  font-size: 14px;
+  color: #ffffff99;
+}
+.epSummary span,
+b {
+  font-size: 14px;
+  color: #ffffffd6;
+  font-weight: bold;
+  margin-right: 6px;
+}
+
+.epDesc {
+  font-size: 14px;
+  color: #ffffffd6;
+}

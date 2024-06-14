@@ -1,12 +1,10 @@
-import { Swiper, SwiperSlide } from "swiper/react";
-
 import MediaCard from "../../components/MediaCard";
 import ScrollableSection, {
   SectionItem,
 } from "../../components/ScrollableSection";
-import BannerDetail from "./components/BannerDetail";
-import BannerMask from "./components/BannerMask";
-import VideoBanner from "./components/VideoBanner";
+import BannerDetail from "../../components/BannerDetail";
+import BannerMask from "../../components/BannerMask";
+import VideoBanner from "../../components/VideoBanner";
 import "swiper/css";
 
 const Home = () => {
