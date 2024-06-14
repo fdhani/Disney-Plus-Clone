@@ -95,7 +95,8 @@
   left: 82%;
   font-weight: 700;
 }
-.MenuItem:hover .menuIcon {
+.MenuItem:hover .menuIcon,
+.menuIcon[data-active="true"] {
   opacity: 1;
   margin-left: 6px;
   font-size: 25px;
