@@ -1,21 +1,18 @@
 .Container {
   height: 50vw;
   position: relative;
-  width: 100%;
+  width: 50%;
+  max-width: 500px;
   display: flex;
   justify-content: flex-end;
   flex-direction: column;
   margin-bottom: 32px;
 }
 
-.VideoDetails {
-  width: 300px;
-}
-
-.VideoLogoWrapper {
-  height: 90px;
-  min-width: 100px;
-  max-width: 200px;
+.title {
+  font-size: 40px;
+  color: white;
+  margin: 0;
 }
 
 .DetailSection {
@@ -40,6 +37,7 @@
 
 .Section2 p {
   font-size: 14px;
+  margin: 0;
   color: #ffffffd6;
   line-height: 20px;
 }

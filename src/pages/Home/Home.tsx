@@ -10,7 +10,14 @@ const Home = () => {
       {/* SECOND LAYER */}
       <BannerMask />
       {/* THIRD LAYER */}
-      <BannerDetail />
+      <BannerDetail
+        genres={["Action", "Adventure", "Fantasy"]}
+        title="Acolyte"
+        overview="NEW EPISODE EVERY WEDNESDAY. “The Acolyte” examines a galaxy of
+            secrets and dark-side powers, and all is not what it seems."
+        releaseDate="2022-01-01"
+        language="English"
+      />
       <div
         style={{
           height: "100vh",
