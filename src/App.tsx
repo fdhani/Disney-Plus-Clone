@@ -1,19 +1,10 @@
 import Layout from "./components/layout";
+import Home from "./pages/Home";
 
 function App() {
   return (
     <Layout>
-      <h1
-        style={{
-          textAlign: "center",
-          paddingTop: "2rem",
-          fontSize: "2rem",
-          margin: 0,
-          color: "white",
-        }}
-      >
-        DUMMY PAGE
-      </h1>
+      <Home />
     </Layout>
   );
 }

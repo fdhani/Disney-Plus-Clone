@@ -1,0 +1,10 @@
+.VideoContainer {
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: -2;
+  overflow: hidden;
+  height: 60vw;
+  width: 100%;
+  background-color: gray;
+}
