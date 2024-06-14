@@ -11,14 +11,10 @@ import useFetch from "../../hooks/useFetch";
 
 const Home = () => {
   const { loading, data } = useFetch(
-    `https://api.themoviedb.org/3/movie/popular?api_key=1f54bd990f1cdfb230adb312546d765d&`
+    `https://api.themoviedb.org/3/movie/popular?api_key=1f54bd990f1cdfb230adb312546d765d`
   );
 
   const firstTrendingItem = data?.results?.[0] || {};
-
-  console.log({
-    firstTrendingItem,
-  });
 
   return (
     <div>
